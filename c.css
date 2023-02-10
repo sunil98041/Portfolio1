@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.grid-container{
+text-align: center;
+
+display: grid;
+padding: 30px;
+font-size: 40px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5,1fr);
+}
+.grid-class{
+    background-color:black;
+    text-align: center;
+    border: 3px solid;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+.grid-a{
+    grid-column: span 3;
+}
+.grid-b{
+    grid-column: span 2;           
+    grid-row: span 3;
+}
+.grid-c{
+    grid-row: span 3;
+}
+.grid-d{
+    grid-column: span 3;
+}
